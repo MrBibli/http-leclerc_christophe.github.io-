@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html>
+<meta charset="utf-8" />
+<head>
+<title>Quoi faire de son travail final</title>
+<link href="Footer.css" rel="stylesheet" type="text/css">
+<style>
+li.ol {
+	line-height: 1.7;
+}
+
+li.ul {
+	line-height: 0.9;
+}
+</style>
+<script>
+var myWindow;
+
+function openWin() {
+  myWindow = window.open("Panique.html", "_blank", "width=600, height=650");
+}
+
+function closeWin() {
+  myWindow.close();
+  document.getElementById("demo").style.color = "black";
+}
+</script>
+</head>
+
+<body>
+<h1>Fin de session éprouvante...</h1>
+<p>La session avance depuis des mois... Tu arrives de peine et de misère à réduire la pile toujours grandissante des travaux que tes <ins>profs <mark>sadiques</mark></ins> (si sadiques!) t'envoient, semaine après semaine, cours après cours... Que faire? </p>
+<ol>
+	<li class="ol">Essayer de voir <button onclick="openWin()">la panique</button> arriver
+	</li>
+	<li><button onclick="closeWin()">-></button><strong id="demo"  style="color:white" >Paniquer pareil.</strong>
+	<!-- Le texte n'affiche pas si la fenêtre n'est pas ouverte au clic du 2e bouton-->
+	Aller <a href="https://www.youtube.com/watch?v=Wz1W_omigwg" target= _blank>relaxer</a>.
+	</li>
+	<li class="ol"><a href="Recharge.html">Retrouver ses repères</a>
+	</li>
+	<li class="ol"><details><summary>Essayer <a href="Productivité.html">la productivité</a> en:</summary>
+		<ul>
+			<li class="ul">S'investissant dans ses cours
+			</li>
+			<li class="ul">Se replongeant dans ses notes
+			</li>
+			<li class="ul">Disant adieu à sa sanité
+			</li>
+		</ul>
+		</details>
+	</li>
+	<li class="ol">???
+	</li>
+	<li class="ol">Réaliser que les travaux sont adaptés aux capacités et apprentissages du cours suivi, et que la période stressante est passée.
+	</li>
+</ol>
+<p> </p>
+</body>
+
+<footer style="bottom: 0"; >
+<div class="navbar">
+  <a href="Index.html" class="active">Relancer la page</a>
+  <a href="#travail d'élève" target= _blank >Voir un autre site</a>
+  <a href="http://www.Perdu.com" target=_blank >Vous êtes perdu?</a>
+</div>
+</footer>
+</html>
